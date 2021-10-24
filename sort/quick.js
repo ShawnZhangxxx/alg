@@ -17,6 +17,7 @@ function quickSort(arr,left,right) {
         quickSort(arr,pivot + 1,right);
     }
 }
+
 function partition(arr,left,right) {
     let pivot = Math.floor(Math.random() * (right - left + 1) + left);
     let j = left;

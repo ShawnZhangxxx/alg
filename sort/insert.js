@@ -25,6 +25,10 @@ function insertSort(arr){
     return arr;
 }
 
+/**
+ * 插入排序时间复杂度 为 n - n²  没有平均复杂度 大概 n的1.2次方- n方
+ * @type {[]}
+ */
 let randomArr = getRandomArr(100000);
 console.time("sortedArr")
 let sortedArr = insertSort(randomArr);
